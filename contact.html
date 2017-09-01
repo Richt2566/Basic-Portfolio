@@ -2,40 +2,56 @@
 <html>
 <head>
 	<title>Rich Tranter</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<header>
-	<h1>Rich Tranter</h1>
-	<nav>
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
-</header>
-<section>
-	<h1>Contact</h1>
-	<hr>
-	<label>Name</label><br>
-	<input type="text" name="name"><br>
-	<label>Email</label><br>
-	<input type="text" name="email"><br>
-	<label>Message</label><br>
-	<input type="text" name="message"><br>
-	<input type="submit" name="submit" value="Submit">
-</section>
 
-<section>
-	<h2>Connect with Me</h2>
-	<hr>
-	<a href="https://github.com/Richt2566" target="_blank"><img src="https://image.freepik.com/free-icon/github-logo-silhouette-in-a-square_318-54633.jpg" alt="github logo" height="80px" width="80px"></a>
-	<a href="https://stackexchange.com/users/10892087/rich-tranter" target="_blank"><img src="https://i.stack.imgur.com/kq8EX.png" alt="stack overflow logo" height="80px" width="80px"></a>
-	<a href="https://www.linkedin.com/in/rich-tranter-9741bb84/" target="_blank"><img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo-500x500.png" alt="linkedin logo" height="80px" width="80px"></a>
-</section>
+	<header class="top">
+		<div class="main-content">
+			<h1 class="heading">Rich Tranter</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li class="last-link"><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+		</div>
+	</header>
+	
+	<div class="main-content">
+	<section>
+		<h1>Contact</h1>
+		<hr>
+		<form>
+			<label>Name</label><br>
+				<input type="text" name="name" placeholder="John Smith">
+		</form><br>
+		<form>
+			<label>Email</label><br>
+				<input type="text" name="email" placeholder="johnsmith@gmail.com">
+		</form><br>
+		<form>
+			<label>Message</label><br>
+				<input class="message-box" type="text" name="message">
+		</form><br>
+		<form>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</section>
+	
+	
+	<section class="connect">
+		<h2>Connect with Me</h2>
+		<hr>
+		<a href="https://github.com/Richt2566" target="_blank"><img src="https://image.freepik.com/free-icon/github-logo-silhouette-in-a-square_318-54633.jpg" alt="github logo" height="80px" width="80px"></a>
+		<a href="https://stackexchange.com/users/10892087/rich-tranter" target="_blank"><img src="https://i.stack.imgur.com/kq8EX.png" alt="stack overflow logo" height="80px" width="80px"></a>
+		<a href="https://www.linkedin.com/in/rich-tranter-9741bb84/" target="_blank"><img src="http://1000logos.net/wp-content/uploads/2017/03/LinkedIn-Logo-500x500.png" alt="linkedin logo" height="80px" width="80px"></a>
+	</section>
+	
+	</div>
 <footer>
 	<p> Copyright 2017 Rich Tranter </p>
 </footer>
-
 </body>
 </html>
