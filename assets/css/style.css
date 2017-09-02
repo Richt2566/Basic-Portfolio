@@ -41,22 +41,23 @@ a:visited {
 	text-decoration: none;
 }
 
-
-
 .main-content {
 	width: 960px;
 	margin: auto;
 }
+
 
 /* About Me */
 section {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 550px;
 	background-color: white;
-	margin: 20px 5px 10px 0px;
 	padding: 10px 20px 20px 20px;
 	font-size: 18px;
 	border: 1px solid grey;
+	margin: 10px -500px 100px 0px;
+	float: left;
+	position: ;
 }
 
 section p {
@@ -94,7 +95,8 @@ input {
 	background-color: white;
 	color: rgb(11,173,167);
 	margin: 10px 0px;
-
+	overflow: auto;
+	display: block;
 }
 
 /* Footer */
