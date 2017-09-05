@@ -9,7 +9,10 @@ body {
 .top {
 	background-color: white;
 	margin-top: 0px;
+	margin-bottom: 20px;
 	padding: 25px 0px;
+	border-bottom: 2px solid lightgrey;
+
 }
 
 .heading {
@@ -37,9 +40,18 @@ li a {
 	color: grey;
 }
 
+li a:hover {
+	color: darkgrey;
+}
+
 a:visited {
 	text-decoration: none;
 }
+
+.navlink1, .navlink2 {
+	margin-right: 30px;
+}
+
 
 .main-content {
 	width: 960px;
@@ -50,14 +62,14 @@ a:visited {
 /* About Me */
 section {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	width: 550px;
+	width: 560px;
 	background-color: white;
 	padding: 10px 20px 20px 20px;
 	font-size: 18px;
 	border: 1px solid grey;
 	margin: 10px -500px 100px 0px;
 	float: left;
-	position: ;
+	min-height: 100%;
 }
 
 section p {
@@ -77,13 +89,53 @@ section h1 {
 input {
 	width: 100%;
 }
+
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+}
+
+.button {
+	background-color: rgb(11,173,167);
+	border: none;
+	float: left;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .message-box {
 	height: 100px;
 }
 
 /* Portfolio */
 .art {
-	margin: 10px;
+	margin: 10px 10px 10px 0px;
+	display: inline;
+
+}
+
+.image1 {
+	width: 190px;
+	height: 200px;
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+
+}
+
+.caption1 {
+	top: 140px; 
+	position: absolute;
+   	left: 0;
+	width: 100%;
+	margin: 10px 10px 10px 0px;
+	background-color: rgb(11,173,167);
+	padding: 5px;
+	font-size: 25px;
+
 }
 
 /* Sidebar */
@@ -99,6 +151,14 @@ input {
 	display: block;
 }
 
+.link1, .link2 {
+	margin-right: 5px;
+}
+
+.link1, .link2, .link3 {
+
+}
+
 /* Footer */
 footer {
 	position: relative;
@@ -112,5 +172,5 @@ footer {
 	background-color: #666666;
 	padding: 20px 0px 10px 0px;
 	border-top: 3px solid rgb(11,173,167);
-	margin-bottom: 0px;
+
 }
