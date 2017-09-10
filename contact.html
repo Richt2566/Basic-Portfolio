@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Rich Tranter</title>
+	<link rel=“stylesheet” href=“https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css” />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -23,23 +24,22 @@
 	<section>
 		<h1>Contact</h1>
 		<hr>
-		<form>
+		<form action="mailto:rtranter25@gmail.com" method="post" enctype="text/plain">
 			<label>Name</label><br>
 				<input type="text" name="name" placeholder="John Smith">
-		</form><br>
-		<form>
+				<br>
 			<label>Email</label><br>
 				<input type="text" name="email" placeholder="johnsmith@gmail.com">
-		</form><br>
-		<form>
+				<br>
 			<label>Message</label><br>
 				<input class="message-box" type="text" name="message">
+
+				<input class="sendemail" type="submit" value="Submit">
+				
+				<input  class="sendemail" type="reset" value="Reset">
+
 		</form><br>
-		<div>
 		
-			<a href="#" class="button">Submit</a>
-		
-		</div>
 	</section>
 	</div>
 	<div class="main-content">
