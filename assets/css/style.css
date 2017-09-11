@@ -122,6 +122,8 @@ input:focus::-webkit-input-placeholder {
 
 .message-box {
 	height: 100px;
+	display: block;
+	margin-top: 5px;
 }
 
 /* Portfolio */
