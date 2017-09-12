@@ -104,6 +104,7 @@ input {
 	width: 115px;
 	margin-top: 10px;
 	margin-right: 10px;
+	margin-bottom: 20px;
 	background-color: #44627F;
 	border: none;
 	float: left;
@@ -192,6 +193,22 @@ input:focus::-webkit-input-placeholder {
 	overflow: auto;
 	display: block;
 }
+
+.connect2 {
+	clear: right;
+	float: right;
+	display: block;
+	width: 270px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	background-color: white;
+	color: #44627F;
+	margin: 10px 0px;
+	overflow: auto;
+	display: block;
+}
+
+
 
 .link1, .link2 {
 	margin-right: 5px;
